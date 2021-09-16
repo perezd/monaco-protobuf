@@ -1,23 +1,3 @@
-# monaco-proto
-Supporting Protobuf language for monaco-editor
+# Protobuf Syntax Rules for Monaco Editor
 
-## Install
-`npm i -S monaco-proto`
-
-## Usage
-```javascript
-import registerProtobuf from 'monaco-proto';
-
-
-// Register protobuf language
-registerProtobuf(monaco);
-
-// Create protobuf editor
-monaco.editor.create(document.getElementById("container"), {
-	language: "protobuf",
-	theme: "protobuf"
-});
-```
-
-## Preview
-![](preview.png)
+This is a fork of the work done originally by [Aedron/monaco-protobuf](https://github.com/Aedron/monaco-protobuf), designed to be more complete to the Protocol Buffers language spec, and agnostic to integration/use with Monaco Editor.
